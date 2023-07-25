@@ -17,7 +17,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -37,7 +37,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -57,7 +57,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -76,7 +76,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -96,7 +96,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -116,7 +116,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -135,7 +135,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -155,7 +155,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -174,7 +174,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -194,7 +194,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -214,7 +214,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -233,7 +233,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -252,7 +252,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -271,7 +271,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -290,7 +290,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -309,7 +309,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -328,7 +328,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -347,7 +347,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -367,7 +367,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -387,7 +387,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -406,7 +406,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -425,7 +425,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
@@ -444,7 +444,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
 ifeq ($(TARGET_KERNEL_VERSION), 6.1)
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_VENDOR_MODULE := true
 endif
 endif
 
