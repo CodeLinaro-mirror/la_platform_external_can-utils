@@ -15,6 +15,11 @@ LOCAL_SRC_FILES := lib.c canframelen.c
 LOCAL_MODULE := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_STATIC_LIBRARY)
 
@@ -30,6 +35,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -45,6 +55,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -59,6 +74,11 @@ LOCAL_MODULE := bcmserver
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -74,6 +94,11 @@ LOCAL_MODULE := can-calc-bit-timing
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -89,6 +114,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -103,6 +133,11 @@ LOCAL_MODULE := canfdtest
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -118,6 +153,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -132,6 +172,11 @@ LOCAL_MODULE := cangw
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -147,6 +192,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -162,6 +212,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -176,6 +231,11 @@ LOCAL_MODULE := cansniffer
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -190,6 +250,11 @@ LOCAL_MODULE := isotpdump
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -204,6 +269,11 @@ LOCAL_MODULE := isotprecv
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -218,6 +288,11 @@ LOCAL_MODULE := isotpsend
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -232,6 +307,11 @@ LOCAL_MODULE := isotpserver
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -246,6 +326,11 @@ LOCAL_MODULE := isotpsniffer.c
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -260,6 +345,11 @@ LOCAL_MODULE := isotptun
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -275,6 +365,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -290,6 +385,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -304,6 +404,11 @@ LOCAL_MODULE := slcan_attach
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -318,6 +423,11 @@ LOCAL_MODULE := slcand
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
 
@@ -332,5 +442,10 @@ LOCAL_MODULE := slcanpty
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+ifneq ( ,$(filter U 14 UpsideDownCake,$(PLATFORM_VERSION)))
+ifeq ($(TARGET_KERNEL_VERSION), 6.1)
+LOCAL_VENDOR_MODULE := true
+endif
+endif
 
 include $(BUILD_EXECUTABLE)
