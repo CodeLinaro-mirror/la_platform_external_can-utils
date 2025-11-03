@@ -15,7 +15,7 @@ LOCAL_SRC_FILES := lib.c canframelen.c
 LOCAL_MODULE := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -33,7 +33,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -51,7 +51,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -104,7 +104,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -139,7 +139,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -174,7 +174,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -192,7 +192,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -329,7 +329,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
@@ -347,7 +347,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libcan
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
-ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15,$(PLATFORM_VERSION)))
+ifneq ( ,$(filter 13 T U 14 UpsideDownCake V VanillaIceCream 15 16,$(PLATFORM_VERSION)))
 LOCAL_VENDOR_MODULE := true
 endif
 
