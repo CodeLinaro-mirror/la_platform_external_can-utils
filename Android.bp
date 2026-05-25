@@ -1,0 +1,224 @@
+cc_defaults {
+    name: "external_canutils_defaults",
+    local_include_dirs: ["include/"],
+    cflags: [
+        "-O2",
+        "-g",
+        "-W",
+        "-Wall",
+        "-DSO_RXQ_OVFL=40",
+        "-DPF_CAN=29",
+        "-DAF_CAN=PF_CAN",
+        "-Wno-sign-compare",
+        "-Wno-unused-parameter",
+        "-Wno-pointer-arith",
+        "-Wno-address-of-packed-member",
+        "-Wno-absolute-value",
+    ],
+    vendor: true,
+}
+
+
+// canlib
+cc_library_static {
+    name: "libcan",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: [
+        "lib.c",
+        "canframelen.c",
+    ],
+}
+
+// candump
+cc_binary {
+    name: "candump",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["candump.c"],
+
+    static_libs: ["libcan"],
+}
+
+// cansend
+cc_binary {
+    name: "cansend",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["cansend.c"],
+
+    static_libs: ["libcan"],
+}
+
+// bcmserver
+cc_binary {
+    name: "bcmserver",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["bcmserver.c"],
+}
+
+// can-calc-bit-timing
+cc_binary {
+    name: "can-calc-bit-timing",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["can-calc-bit-timing.c"],
+}
+
+// canbusload
+cc_binary {
+    name: "canbusload",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["canbusload.c"],
+
+    static_libs: ["libcan"],
+}
+
+// canfdtest
+cc_binary {
+    name: "canfdtest",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["canfdtest.c"],
+}
+
+// cangen
+cc_binary {
+    name: "cangen",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["cangen.c"],
+
+    static_libs: ["libcan"],
+}
+
+// cangw
+cc_binary {
+    name: "cangw",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["cangw.c"],
+}
+
+// canlogserver
+cc_binary {
+    name: "canlogserver",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["canlogserver.c"],
+
+    static_libs: ["libcan"],
+}
+
+// canplayer
+cc_binary {
+    name: "canplayer",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["canplayer.c"],
+
+    static_libs: ["libcan"],
+}
+
+// cansniffer
+cc_binary {
+    name: "cansniffer",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["cansniffer.c"],
+}
+
+// isotpdump
+cc_binary {
+    name: "isotpdump",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["isotpdump.c"],
+}
+
+// isotprecv
+cc_binary {
+    name: "isotprecv",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["isotprecv.c"],
+}
+
+// isotpsend
+cc_binary {
+    name: "isotpsend",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["isotpsend.c"],
+}
+
+// isotpserver
+cc_binary {
+    name: "isotpserver",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["isotpserver.c"],
+}
+
+// isotpsniffer
+cc_binary {
+    name: "isotpsniffer.c",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["isotpsniffer.c"],
+}
+
+// isotptun
+cc_binary {
+    name: "isotptun",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["isotptun.c"],
+
+}
+
+// log2asc
+cc_binary {
+    name: "log2asc",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["log2asc.c"],
+
+    static_libs: ["libcan"],
+}
+
+// log2long
+cc_binary {
+    name: "log2long",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["log2long.c"],
+
+    static_libs: ["libcan"],
+}
+
+// slcan_attach
+cc_binary {
+    name: "slcan_attach",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["slcan_attach.c"],
+}
+
+// slcand
+cc_binary {
+    name: "slcand",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["slcand.c"],
+}
+
+// slcanpty
+cc_binary {
+    name: "slcanpty",
+    defaults: ["external_canutils_defaults"],
+
+    srcs: ["slcanpty.c"],
+}
